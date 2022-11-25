@@ -1,18 +1,19 @@
-import {data} from "../../data"
-
+import { data } from "../../data";
 
 export const Viamo = () => {
-    var firstO = data.slice(0,1)
+  var firstO = data.slice(0, 1);
 
-    var preguntas = firstO.map( e => {return e.preguntas})
+  var preguntas = firstO.map((e) => {
+    return e.preguntas;
+  });
 
-/*     var requiredElements = preguntas[0].map((e) => {return {tiempo: e.tiempo, tarea: e.texto}})
-    console.log(requiredElements); */
+  // var requiredElements = preguntas[0].map((e) => {return {tiempo: e.tiempo, tarea: e.texto}})
+  //console.log(requiredElements);
 
-return (
+  return (
     <>
-    <div>
-    {firstO.map((e, key) => {
+      <div>
+        {firstO.map((e, key) => {
           return (
             <div key={key}>
               <h3>Cliente: {e.cliente} </h3>
@@ -28,14 +29,24 @@ return (
               </div>
               <h2>Tareas</h2>
               <span>Escenario: {e.escenario}</span>
-           
             </div>
           );
         })}
-    </div>
+        <div>
+          {preguntas[0].map((e, index) => {
+            return (
+              <div>
+                <span>
+                  {" "}
+                  Tarea{index}: {e.texto}{" "}
+                </span>
+
+                <span>duracion de la tarea: {e.tiempo}</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </>
-)
-
-
-
-}
+  );
+};
