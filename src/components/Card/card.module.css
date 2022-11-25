@@ -1,0 +1,19 @@
+.cards {
+    border-radius: 0.75em;
+    /*   box-shadow: 0 3px 3px #0001; */
+      /* background-color: rgb(147, 207, 29); */
+      width: 73%;
+      backdrop-filter: blur(29px);
+      background-color: rgba(62, 181, 90, 0.2);
+      margin: auto;  
+      text-align: center; 
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 352px;
+  
+    height: fit-content;
+    padding: 40px;
+}
