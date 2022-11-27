@@ -1,5 +1,5 @@
 import { data } from "../../data";
-
+import { Link } from "react-router-dom";
 var secondO = data.slice(-1);
 var preguntas = secondO.map((e) => {
   return e.preguntas;
@@ -8,6 +8,15 @@ var preguntas = secondO.map((e) => {
 export const Nebula = () => {
   return (
     <>
+      {/*   <div>
+            <button>
+                <Link to="/">Home</Link>
+            </button>
+
+            <button>
+                <Link to="/Viamo">To other client Viamo</Link>
+            </button>
+        </div> */}
       <div>
         {secondO.map((e, key) => {
           return (

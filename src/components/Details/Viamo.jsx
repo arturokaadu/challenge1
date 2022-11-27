@@ -1,5 +1,5 @@
 import { data } from "../../data";
-
+import { Link } from "react-router-dom";
 export const Viamo = () => {
   var firstO = data.slice(0, 1);
 
@@ -7,11 +7,18 @@ export const Viamo = () => {
     return e.preguntas;
   });
 
-  // var requiredElements = preguntas[0].map((e) => {return {tiempo: e.tiempo, tarea: e.texto}})
-  //console.log(requiredElements);
 
   return (
     <>
+   {/*     <div>
+            <button>
+                <Link to="/">Home</Link>
+            </button>
+
+            <button>
+                <Link to="/Nebula">To other client Nebula</Link>
+            </button>
+        </div> */}
       <div>
         {firstO.map((e, key) => {
           return (
