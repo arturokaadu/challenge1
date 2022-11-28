@@ -6,7 +6,7 @@ import { Nebula } from "./components/Details/Nebula";
 function App() { 
   return (
     <>
-      <div>
+      
         <HashRouter basename='/challenge1'>
         <Nav />
         <Routes>
@@ -15,7 +15,7 @@ function App() {
           <Route path="/Nebula" element={<Nebula />} />
         </Routes>
         </HashRouter>
-      </div>
+      
     </>
   );
 }
