@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <div>
-        <Nav />
         <BrowserRouter basename='/challenge1'>
+        <Nav />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/Viamo" element={<Viamo />} />
