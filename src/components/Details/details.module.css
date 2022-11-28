@@ -1,0 +1,90 @@
+body, html{
+    height: 100%;
+}
+.cardContainer{
+
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding: 20px;
+    /* background: linear-gradient(132deg, rgb(115, 93, 142) 0.00%, rgb(58, 33, 86) 100.00%);
+     */
+     background: linear-gradient(152deg, rgb(1, 96, 105) 47.16%, rgb(0, 72, 95) 100.00%);    
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+ 
+}
+
+.texta{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 40px;
+    
+}
+
+.textb{
+    overflow: scroll;
+    max-height: 300px;
+    max-width: 600px;
+}
+
+.escenario{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+}
+
+.tareas{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 10px;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 10px;
+    color: rgb(218, 72, 72);
+}
+.lines{
+    width: 50%;
+    height: 45px;
+    position: relative;
+    padding: 2px;
+}
+
+.lines::after{ 
+    content:'';
+    position:absolute;
+    margin: auto;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    width: 100%;
+/*     top: 100%;  */
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat+Alternates&family=Montserrat:wght@300&family=Ubuntu&display=swap');

@@ -10,7 +10,7 @@
   .nav {
     height: 85px;
     width: 100%;
-    background-color: #c5b1b1;
+    background: linear-gradient(152deg, rgb(1, 96, 105) 47.16%, rgb(0, 72, 95) 100.00%);    
     position: relative;
   }
   
@@ -44,6 +44,8 @@
     padding: 13px 10px 13px 10px;
     text-decoration: none;
     color: #efefef;
+  font-family: 'Ubuntu', sans-serif;
+
   }
   
   .nav > .navlinks > a:hover {
@@ -99,3 +101,5 @@
       overflow-y: auto;
     }
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat+Alternates&family=Montserrat:wght@300&family=Ubuntu&display=swap');

@@ -5,7 +5,7 @@ export const Nav = () => {
   return (
     <div className={styles.nav}>
       <div className={styles.navlinks}>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/" style={{ textDecoration: "none"}}>
           <div>Home</div>
         </Link>
         <Link to="/Nebula">Client Nebula</Link>
