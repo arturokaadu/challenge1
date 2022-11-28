@@ -8,11 +8,13 @@ function App() {
     <>
       <div>
         <Nav />
+        <BrowserRouter basename='/challenge1'>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/Viamo" element={<Viamo />} />
           <Route path="/Nebula" element={<Nebula />} />
         </Routes>
+        </BrowserRouter>
       </div>
     </>
   );
