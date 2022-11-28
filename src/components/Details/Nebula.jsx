@@ -38,6 +38,7 @@ export const Nebula = () => {
                 />
               </div>
 
+                <h3>Transcripción: </h3>
               <div className={styles.texta}>
                 <textarea
                   className={styles.textb}
