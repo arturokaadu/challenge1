@@ -7,15 +7,15 @@ function App() {
   return (
     <>
       
-        <HashRouter basename='/challenge1'>
+        
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Viamo" element={<Viamo />} />
           <Route path="/Nebula" element={<Nebula />} />
         </Routes>
-        </HashRouter>
       
+    
     </>
   );
 }
