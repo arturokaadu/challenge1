@@ -40,9 +40,9 @@ export const Nebula = () => {
 
                 <h3>Transcripción: </h3>
               <div className={styles.texta}>
-                <textarea
+                <textarea 
                   className={styles.textb}
-                  rows={textareaheight}
+                 
                   onChange={handleChange}
                 >
                   {e.transcripcion}

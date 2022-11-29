@@ -10,7 +10,7 @@ export const Home = () => {
         {data.map((e, key) => {
           return (
             <div className={styles.col} key={key}>
-              <Link style={{ textDecoration: "none" }} to={"/" + e.cliente}>
+              <Link style={{ textDecoration: "none" }} to={`/challenge1/${e.cliente}`}>
                 <Card cliente={e.cliente} />
               </Link>
             </div>
